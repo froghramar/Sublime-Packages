@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+erase(${1:iterator});${2:}
+]]></content>
+	<tabTrigger>erase</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+insert(${1:value});${2:}
+]]></content>
+	<tabTrigger>insert</tabTrigger>
+</snippet>

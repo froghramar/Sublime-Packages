@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+rend()${1:}
+]]></content>
+	<tabTrigger>rend</tabTrigger>
+</snippet>

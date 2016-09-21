@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+max(${1:a},${2:b})${3:}
+]]></content>
+	<tabTrigger>max</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+const int mod = 1000000007;
+]]></content>
+	<tabTrigger>MOD</tabTrigger>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+sort(${1:arr},${1:arr}+${2:n});
+${3:}
+]]></content>
+	<tabTrigger>sortArray</tabTrigger>
+</snippet>

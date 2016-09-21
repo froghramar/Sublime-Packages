@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+map <${1:int},${2:int}> ${3:mp};
+]]></content>
+	<tabTrigger>map</tabTrigger>
+</snippet>

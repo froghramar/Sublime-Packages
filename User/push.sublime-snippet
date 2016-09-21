@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+push(${1:value});${2:}
+]]></content>
+	<tabTrigger>push</tabTrigger>
+</snippet>

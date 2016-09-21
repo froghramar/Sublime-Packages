@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+%f
+]]></content>
+	<tabTrigger>specifierFloat</tabTrigger>
+</snippet>

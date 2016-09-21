@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+for(map <${1:int},${2:int}> :: iterator ${3:it} = ${4:mp}.begin(); ${3:it} != ${4:mp}.end(); ${3:it}++){
+	${5:/* code */}
+}
+]]></content>
+	<tabTrigger>forMap</tabTrigger>
+</snippet>

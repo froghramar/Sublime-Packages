@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+__builtin_popcount(${1:x})
+]]></content>
+	<tabTrigger>builtin_popcount</tabTrigger>
+</snippet>

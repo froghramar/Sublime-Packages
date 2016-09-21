@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+sizeof(${1:/* Storage */})${2:}
+]]></content>
+	<tabTrigger>sizeof</tabTrigger>
+</snippet>

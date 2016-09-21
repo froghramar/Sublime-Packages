@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+%d
+]]></content>
+	<tabTrigger>specifierInt</tabTrigger>
+</snippet>

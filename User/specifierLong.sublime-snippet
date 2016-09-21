@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+%ld
+]]></content>
+	<tabTrigger>specifierLong</tabTrigger>
+</snippet>

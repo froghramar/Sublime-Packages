@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+sort(${1:v}.begin(),${1:v}.end());
+${2:}
+]]></content>
+	<tabTrigger>sortVector</tabTrigger>
+</snippet>

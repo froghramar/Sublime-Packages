@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+stack <${1:int}> ${2:st};${3:}
+]]></content>
+	<tabTrigger>stack</tabTrigger>
+</snippet>

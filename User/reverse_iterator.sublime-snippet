@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+:: reverse_iterator ${1:rit}
+]]></content>
+	<tabTrigger>reverse_iterator</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+queue <${1:int}> ${2:q};${3:}
+]]></content>
+	<tabTrigger>queue</tabTrigger>
+</snippet>

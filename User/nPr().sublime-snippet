@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+long long nPr(int n, int r){
+	long long res = 1;
+	while(r--) res *= n--;
+	return res;
+}
+]]></content>
+	<tabTrigger>nPr</tabTrigger>
+</snippet>

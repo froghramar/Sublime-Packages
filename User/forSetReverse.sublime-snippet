@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+for(set <${1:int}> :: reverse_iterator ${2:rit} = ${3:st}.rbegin(); ${2:rit} != ${3:st}.rend(); ${2:it}++){
+	${4:/* code */}
+}
+]]></content>
+	<tabTrigger>forSetReverse</tabTrigger>
+</snippet>

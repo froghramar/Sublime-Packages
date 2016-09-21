@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+void setBit(int &N,int pos){ N = N | (1<<pos);}
+]]></content>
+	<tabTrigger>setbit</tabTrigger>
+</snippet>

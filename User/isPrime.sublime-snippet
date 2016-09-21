@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+isPrime(${1:n})
+]]></content>
+	<tabTrigger>isPrime</tabTrigger>
+</snippet>

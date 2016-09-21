@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+long long nCr(int n, int r){
+	long long factN = 1, factR = 1;
+	r++;
+	for(int i = 1; i < r; i++)
+		factN *= n--, factR *= i;
+	return factN / factR;
+}
+]]></content>
+	<tabTrigger>nCr</tabTrigger>
+</snippet>

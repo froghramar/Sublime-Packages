@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+__gcd(${1:a},${2:b})
+]]></content>
+	<tabTrigger>gcd</tabTrigger>
+</snippet>

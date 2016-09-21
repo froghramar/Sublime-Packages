@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+freopen("input.txt","r",stdin);
+]]></content>
+	<tabTrigger>freopen</tabTrigger>
+</snippet>

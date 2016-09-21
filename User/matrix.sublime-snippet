@@ -1,0 +1,57 @@
+<snippet>
+	<content><![CDATA[
+namespace mat{
+	const int d = 2;
+	struct Matrix{
+		int r,c,m[d][d];
+		Matrix(){}
+		Matrix(int x, int y){ r = x, c = y;}
+		Matrix multiply(Matrix M){
+			Matrix ret(r, M.c);
+			for(int i = 0; i < ret.r; i++)
+				for(int j = 0; j < ret.c; j++){
+					ret.m[i][j] = 0;
+					for(int k = 0; k < c; k++)
+						ret.m[i][j] = ret.m[i][j] + m[i][k] * M.m[k][j];
+				}
+			return ret;
+		}
+		void show(){
+			for(int i = 0; i < r; i++){
+				for(int j = 0; j < c; j++) printf("%d ",m[i][j]);
+				printf("\n");
+			}
+		}
+	};
+	Matrix I(d,d),A(d,d),H(d,1);
+	void setI(){
+		for(int i = 0; i < d; i++){
+			for(int j = 0; j < d; j++) I.m[i][j] = 0;
+			I.m[i][i] = 1;
+		}
+	}
+	void setA(int arr[d][d]){
+		for(int i = 0; i < d; i++)
+			for(int j = 0; j < d; j++)
+				A.m[i][j] = arr[i][j];
+	}
+	void setH(int arr[d]){
+		for(int i = 0; i < d; i++)
+			H.m[i][0] = arr[i];
+	}
+	Matrix getMatrix(int n){
+		if(n == 0) return I;
+		Matrix R = getMatrix(n >> 1);
+		R = R.multiply(R);
+		if(n & 1) R = A.multiply(R);
+		return R;
+	}
+	int value(int n){
+		Matrix R = getMatrix(n);
+		R = R.multiply(H);
+		return R.m[0][0];
+	}
+}
+]]></content>
+	<tabTrigger>mat</tabTrigger>
+</snippet>

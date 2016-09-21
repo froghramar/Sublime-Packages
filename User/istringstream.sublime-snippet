@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+istringstream iss(${1:string});
+${2:}
+]]></content>
+	<tabTrigger>istringstream</tabTrigger>
+</snippet>

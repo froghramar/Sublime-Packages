@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+pop();${1:}
+]]></content>
+	<tabTrigger>pop</tabTrigger>
+</snippet>

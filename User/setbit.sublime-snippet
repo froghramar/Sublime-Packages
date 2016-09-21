@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+setbit(${1:N},${2:Position});${3:}
+]]></content>
+	s<tabTrigger>setbit</tabTrigger>
+</snippet>

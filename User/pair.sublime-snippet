@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+pair <${1:int},${2:int}> ${3:p};
+]]></content>
+	<tabTrigger>pair</tabTrigger>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+#include <bits/stdc++.h>
+
+using namespace std;
+const int N = 1000005;
+
+${1:/* variables */}
+
+void init(){
+	
+}
+
+void fread(){
+	freopen("input.txt","r",stdin);
+	freopen("output.txt","w",stdout);
+}
+
+int main(){
+	fread();
+	init();
+	return 0;
+}
+]]></content>
+	<tabTrigger>cpp</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+__builtin_ctz(${1:x})
+]]></content>
+	<tabTrigger>builtin_ctz</tabTrigger>
+</snippet>

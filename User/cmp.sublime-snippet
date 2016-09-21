@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+bool cmp(${1:Type} a, ${1:Type} b){
+	return ${2:condition};
+}
+]]></content>
+	<tabTrigger>cmp</tabTrigger>
+</snippet>

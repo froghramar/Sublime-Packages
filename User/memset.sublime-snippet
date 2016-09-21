@@ -1,0 +1,7 @@
+<snippet>
+	<content><![CDATA[
+memset(${1:array},${2:-1},sizeof(${1:array}));
+${3:}
+]]></content>
+	<tabTrigger>memset</tabTrigger>
+</snippet>

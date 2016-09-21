@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+empty()${1:}
+]]></content>
+	<tabTrigger>empty</tabTrigger>
+</snippet>

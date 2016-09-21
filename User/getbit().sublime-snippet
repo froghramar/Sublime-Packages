@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+bool getBit(int N,int pos){return (bool)(N & (1<<pos));}
+]]></content>
+	<tabTrigger>getbit</tabTrigger>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+int k,primes[${1:N}];
+bool is[${1:N}];
+
+void seive(){
+	int sq = sqrt(${1:N}) + 1;
+	for(int i=3; i<sq; i++)
+		if(!is[i]) for(int j=i*i; j<${1:N}; j += i<<1) is[j] = 1;
+	primes[k++] = 2;
+	for(int i = 3; i < ${1:N}; i+=2)
+		if(!is[i]) primes[k++] = i;
+}
+]]></content>
+	<tabTrigger>primeGenerator</tabTrigger>
+</snippet>

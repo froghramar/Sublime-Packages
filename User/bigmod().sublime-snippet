@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+long long bigmod(long long n, long long p){
+    if(p == 0) return 1;
+    else if(p & 1) return (n * bigmod(n, p - 1)) % mod;
+    else{
+        long long x = bigmod(n, p / 2);
+        return (x * x) % mod;
+    }
+}
+]]></content>
+	<tabTrigger>bigmod</tabTrigger>
+</snippet>

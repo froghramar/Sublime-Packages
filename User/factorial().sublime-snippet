@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+${1:long long} factorial(int n){
+	${1:long long} res = 1;
+	while(n) res *= n--;
+	return res;
+}${2:}
+]]></content>
+	<tabTrigger>factorial</tabTrigger>
+</snippet>

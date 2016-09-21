@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+prev_permutation(${1:list}.begin(),${1:list}.end())${3:}
+]]></content>
+	<tabTrigger>prev_permutation</tabTrigger>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+for(set <${1:int}> :: iterator ${2:it} = ${3:st}.begin(); ${2:it} != ${3:st}.end(); ${2:it}++){
+	${4:/* code */}
+}
+]]></content>
+	<tabTrigger>forSet</tabTrigger>
+</snippet>

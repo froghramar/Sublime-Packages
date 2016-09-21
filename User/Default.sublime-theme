@@ -1,0 +1,63 @@
+[
+
+    {
+        "class": "sidebar_container",
+        // $base02:    #073642         
+        "layer0.tint": [7,54,66],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 1, 0],
+        "content_margin": [0, 0, 1, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "row_padding": [8, 3],
+        "indent": 12,
+        "indent_offset": 17,
+        "indent_top_level": false,
+        // $base2:     #eee8d5         
+        "layer0.tint": [238,232,213],
+        "layer0.opacity": 1.0,
+        "dark_content": false
+    },
+    {
+        "class": "sidebar_heading",
+        // $base1:     #93a1a1         
+        "color": [147,161,161],
+        "font.bold": true,
+        // $base3:     #fdf6e3         
+        "shadow_color": [253,246,227],
+        "shadow_offset": [0, 1]
+    },
+    {
+        "class": "sidebar_heading",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["selected"] }
+        ],
+
+        "shadow_color": [160, 174, 192]
+    },
+    {
+        "class": "sidebar_label",
+        // $base01:    #586e75         
+        "color": [88,110,117],
+        "font.bold": false
+        // , "shadow_color": [250, 250, 250], "shadow_offset": [0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        // $base01:    #586e75         
+        "color": [88,110,117]
+        // , "shadow_color": [60, 60, 60], "shadow_offset": [0, 1]
+    },
+
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "settings": ["bold_folder_labels"],
+        "font.bold": true
+    }
+
+]

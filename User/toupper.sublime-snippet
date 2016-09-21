@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+toupper(${1:ch})${2:}
+]]></content>
+	<tabTrigger>toupper</tabTrigger>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+cout << ${1:""} << endl;${2:}
+]]></content>
+	<tabTrigger>cout</tabTrigger>
+</snippet>

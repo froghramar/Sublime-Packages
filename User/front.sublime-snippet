@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+front()${1:}
+]]></content>
+	<tabTrigger>front</tabTrigger>
+</snippet>

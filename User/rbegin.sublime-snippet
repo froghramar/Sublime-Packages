@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+rbegin()${1:}
+]]></content>
+	<tabTrigger>rbegin</tabTrigger>
+</snippet>

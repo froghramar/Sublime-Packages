@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+bool is[${1:N}];
+
+void seive(){
+	memset(is,1,${1:N});
+	is[1] = 0;
+	for(int i=4; i<${1:N}; i+=2) is[i] = 0;
+	int sq = sqrt(${1:N}) + 1;
+	for(int i=3; i<sq; i++)
+		if(is[i]) for(int j=i*i; j<${1:N}; j += i<<1) is[j] = 0;
+}
+]]></content>
+	<tabTrigger>seive</tabTrigger>
+</snippet>

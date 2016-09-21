@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+:: iterator ${1:it}
+]]></content>
+	<tabTrigger>iterator</tabTrigger>
+</snippet>

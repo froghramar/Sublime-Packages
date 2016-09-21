@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+void sortCounting(int arr[], int n, int l, int r){
+	int size = r - l + 1;
+	int cnt[size];
+	memset(cnt,0,sizeof(cnt));
+	for(int i = 0; i < n; i++){
+		cnt[arr[i]-l]++;
+	}
+	int k = 0;
+	for(int i = 0; i < size; i++){
+		while(cnt[i]--){
+			arr[k++] = i + l;
+		}
+	}
+}
+]]></content>
+	<tabTrigger>sortCounting</tabTrigger>
+</snippet>
