@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+scanf("%[^\n]\n",${1:s});
+]]></content>
+	<tabTrigger>gets</tabTrigger>
+</snippet>
