@@ -1,9 +1,10 @@
 {
 	"atomic_save": true,
 	"color_scheme": "Packages/Colors/Feroz.tmTheme",
-	"font_size": 10,
+	"font_size": 11,
 	"highlight_line": false,
 	"line_padding_bottom": 3,
 	"line_padding_top": 3,
-	"soda_classic_tabs": true
+	"soda_classic_tabs": true,
+	"update_check": false
 }

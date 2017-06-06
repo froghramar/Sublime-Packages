@@ -1,0 +1,31 @@
+<snippet>
+	<content><![CDATA[
+int k;
+long long divisor[100];
+
+void find_Out_All_Divisors(long long n){
+	divisor[k++] = 1;
+	int sq = sqrt(n);
+	for(int i = 2; i <= sq; i++){
+		int l = k;
+		long long v = 1;
+		while(n % i == 0){
+			n /= i;
+			v *= i;
+			for(int j = 0; j < l; j++){
+				divisor[k++] = divisor[j] * v;
+			}
+		}
+		sq = sqrt(n);
+	}
+	if(n > 1){
+		int l = k;
+		for(int j = 0; j < l; j++){
+			divisor[k++] = divisor[j] * n;
+		}
+	}
+	sort(divisor,divisor+k);
+}
+]]></content>
+	<tabTrigger>divi</tabTrigger>
+</snippet>
