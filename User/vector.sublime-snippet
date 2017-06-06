@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-vector <${1:int}> ${2:v};
-]]></content>
-	<tabTrigger>vector</tabTrigger>
-</snippet>

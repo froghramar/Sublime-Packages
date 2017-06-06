@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-top()${1:}
-]]></content>
-	<tabTrigger>top</tabTrigger>
-</snippet>

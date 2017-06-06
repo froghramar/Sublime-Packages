@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-strlen(${1:s1})
-]]></content>
-	<tabTrigger>strlen</tabTrigger>
-</snippet>

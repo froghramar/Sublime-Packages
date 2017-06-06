@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-strcpy(${1:s1},${2:s2})
-]]></content>
-	<tabTrigger>strcpy</tabTrigger>
-</snippet>

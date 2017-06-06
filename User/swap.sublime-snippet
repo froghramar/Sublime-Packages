@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-swap(${1:a},${2:b});${3:}
-]]></content>
-	<tabTrigger>swap</tabTrigger>
-</snippet>

@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-using namespace ${1:std};
-]]></content>
-	<tabTrigger>using namespace</tabTrigger>
-</snippet>

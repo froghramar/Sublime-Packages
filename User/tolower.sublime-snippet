@@ -1,6 +1,0 @@
-<snippet>
-	<content><![CDATA[
-tolower(${1:ch})${2:}
-]]></content>
-	<tabTrigger>tolower</tabTrigger>
-</snippet>
