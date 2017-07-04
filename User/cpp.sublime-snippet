@@ -5,7 +5,7 @@
 #define debug(format, ...) fprintf (stderr, format, __VA_ARGS__)
 
 using namespace std;
-const int N = 1000005;
+const int N = 1234567;
 
 ${1:}
 
