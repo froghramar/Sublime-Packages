@@ -2,6 +2,7 @@
 	<content><![CDATA[
 #include <stdio.h>
 #include <bits/stdc++.h>
+#include <unistd.h>
 #define debug(format, ...) fprintf (stderr, format, __VA_ARGS__)
 
 using namespace std;
@@ -10,16 +11,20 @@ const int N = 1000005;
 ${1:}
 
 void init(){
-	${2:}
+    ${2:}
 }
 
 int main(){
-	#ifndef ONLINE_JUDGE
-		freopen("input.txt","r",stdin);
-		freopen("output.txt","w",stdout);
-	#endif
-	init();
-	return 0;
+    #ifndef ONLINE_JUDGE
+        freopen("input.txt","r",stdin);
+        freopen("output.txt","w",stdout);
+        signal(SIGALRM, [](int signum){
+            throw runtime_error("TLE");
+        });
+        alarm(5);
+    #endif
+    init();
+    return 0;
 }
 ]]></content>
 	<tabTrigger>cpp</tabTrigger>
