@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <bits/stdc++.h>
 #include <unistd.h>
-#define debug(format, ...) fprintf (stderr, format, __VA_ARGS__)
+#define debug(format, ...) fprintf(stderr, format, __VA_ARGS__)
 
 using namespace std;
 const int N = 1234567;
@@ -16,11 +16,12 @@ void init(){
 
 int main(){
 	#ifndef ONLINE_JUDGE
-		freopen("input.txt","r",stdin);
-		freopen("output.txt","w",stdout);
+		freopen("input.txt", "r", stdin);
+		freopen("output.txt", "w", stdout);
 		#ifdef __linux__
 			signal(SIGALRM, [](int signum){
-				throw runtime_error("TLE");
+				fprintf(stderr, "[Force exit......]\n");
+				exit(0);
 			});
 			alarm(5);
 		#endif
