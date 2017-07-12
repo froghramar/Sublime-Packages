@@ -11,20 +11,22 @@ const int N = 1234567;
 ${1:}
 
 void init(){
-    ${2:}
+	${2:}
 }
 
 int main(){
-    #ifndef ONLINE_JUDGE
-        freopen("input.txt","r",stdin);
-        freopen("output.txt","w",stdout);
-        signal(SIGALRM, [](int signum){
-            throw runtime_error("TLE");
-        });
-        alarm(5);
-    #endif
-    init();
-    return 0;
+	#ifndef ONLINE_JUDGE
+		freopen("input.txt","r",stdin);
+		freopen("output.txt","w",stdout);
+		#ifdef __linux__
+			signal(SIGALRM, [](int signum){
+				throw runtime_error("TLE");
+			});
+			alarm(5);
+		#endif
+	#endif
+	init();
+	return 0;
 }
 ]]></content>
 	<tabTrigger>cpp</tabTrigger>
