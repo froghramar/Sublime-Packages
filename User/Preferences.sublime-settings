@@ -1,6 +1,7 @@
 {
 	"atomic_save": true,
 	"color_scheme": "Packages/Colors/Feroz.tmTheme",
+	"font_face": "Courier New",
 	"font_size": 11,
 	"highlight_line": false,
 	"line_padding_bottom": 3,
